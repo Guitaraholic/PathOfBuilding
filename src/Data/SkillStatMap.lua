@@ -1369,6 +1369,10 @@ return {
 	mod("FireDegen", "BASE", nil, 0, 0, { type = "PerStat", stat = "EnergyShield", div = 1 }),
 	div = 6000,
 },
+["base_nonlethal_fire_damage_%_of_maximum_mana_taken_per_minute"] = {
+	mod("FireDegen", "BASE", nil, 0, 0, { type = "PerStat", stat = "Mana", div = 1 }),
+	div = 6000,
+},
 
 --
 -- Attack modifiers
